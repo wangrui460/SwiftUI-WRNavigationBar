@@ -21,6 +21,18 @@
 		1AA41B0C264FC2DD00F286C2 /* WRTrailingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B0B264FC2DD00F286C2 /* WRTrailingView.swift */; };
 		1AA41B0F264FC38B00F286C2 /* WRTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B0E264FC38B00F286C2 /* WRTitleView.swift */; };
 		1AA41B13264FC48800F286C2 /* WRBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B12264FC48800F286C2 /* WRBackgroundView.swift */; };
+		1AA41B1B265017C100F286C2 /* LeadingAndTrailingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B1A265017C100F286C2 /* LeadingAndTrailingView.swift */; };
+		1AA41B1E2650198B00F286C2 /* UINavigationController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B1D2650198B00F286C2 /* UINavigationController+Ex.swift */; };
+		1AA41B2126501ABB00F286C2 /* ForegroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B2026501ABB00F286C2 /* ForegroundView.swift */; };
+		1AA41B2426501B6C00F286C2 /* BackButtonTapActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B2326501B6C00F286C2 /* BackButtonTapActionView.swift */; };
+		1AA41B2726501BAF00F286C2 /* HiddenBottomLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B2626501BAF00F286C2 /* HiddenBottomLineView.swift */; };
+		1AA41B2B2650202200F286C2 /* IgnoreTopAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B2A2650202200F286C2 /* IgnoreTopAreaView.swift */; };
+		1AA41B3326502A5300F286C2 /* BackgroundView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B3226502A5300F286C2 /* BackgroundView1.swift */; };
+		1AA41B3626502C9900F286C2 /* BackgroundView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B3526502C9900F286C2 /* BackgroundView2.swift */; };
+		1AA41B3926502DCB00F286C2 /* BackgroundView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B3826502DCB00F286C2 /* BackgroundView3.swift */; };
+		1AA41B3C2650350100F286C2 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B3B2650350100F286C2 /* TitleView.swift */; };
+		1AA41B3F2650363A00F286C2 /* TitleSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B3E2650363A00F286C2 /* TitleSearchView.swift */; };
+		1AA41B4326503C5100F286C2 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41B4226503C5100F286C2 /* DebugView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +52,18 @@
 		1AA41B0B264FC2DD00F286C2 /* WRTrailingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRTrailingView.swift; sourceTree = "<group>"; };
 		1AA41B0E264FC38B00F286C2 /* WRTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRTitleView.swift; sourceTree = "<group>"; };
 		1AA41B12264FC48800F286C2 /* WRBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRBackgroundView.swift; sourceTree = "<group>"; };
+		1AA41B1A265017C100F286C2 /* LeadingAndTrailingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadingAndTrailingView.swift; sourceTree = "<group>"; };
+		1AA41B1D2650198B00F286C2 /* UINavigationController+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ex.swift"; sourceTree = "<group>"; };
+		1AA41B2026501ABB00F286C2 /* ForegroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundView.swift; sourceTree = "<group>"; };
+		1AA41B2326501B6C00F286C2 /* BackButtonTapActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonTapActionView.swift; sourceTree = "<group>"; };
+		1AA41B2626501BAF00F286C2 /* HiddenBottomLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenBottomLineView.swift; sourceTree = "<group>"; };
+		1AA41B2A2650202200F286C2 /* IgnoreTopAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreTopAreaView.swift; sourceTree = "<group>"; };
+		1AA41B3226502A5300F286C2 /* BackgroundView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView1.swift; sourceTree = "<group>"; };
+		1AA41B3526502C9900F286C2 /* BackgroundView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView2.swift; sourceTree = "<group>"; };
+		1AA41B3826502DCB00F286C2 /* BackgroundView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView3.swift; sourceTree = "<group>"; };
+		1AA41B3B2650350100F286C2 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		1AA41B3E2650363A00F286C2 /* TitleSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSearchView.swift; sourceTree = "<group>"; };
+		1AA41B4226503C5100F286C2 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +96,12 @@
 		1AA41AE4264FBFC200F286C2 /* SwiftUI-WRNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				1AA41AE9264FBFC200F286C2 /* ContentView.swift */,
+				1AA41B18264FEFA200F286C2 /* Demo */,
 				1AA41AFA264FBFDE00F286C2 /* WRNavigationBar */,
+				1AA41B1D2650198B00F286C2 /* UINavigationController+Ex.swift */,
 				1AA41AE5264FBFC200F286C2 /* AppDelegate.swift */,
 				1AA41AE7264FBFC200F286C2 /* SceneDelegate.swift */,
-				1AA41AE9264FBFC200F286C2 /* ContentView.swift */,
 				1AA41AEB264FBFC500F286C2 /* Assets.xcassets */,
 				1AA41AF0264FBFC500F286C2 /* LaunchScreen.storyboard */,
 				1AA41AF3264FBFC500F286C2 /* Info.plist */,
@@ -98,13 +124,31 @@
 				1AA41B05264FC1F700F286C2 /* WRHelper.swift */,
 				1AA41B00264FC0D700F286C2 /* WRDefaultBackButton.swift */,
 				1AA41AFC264FC0CF00F286C2 /* WRNavigationBar.swift */,
-				1AA41AFB264FC0CF00F286C2 /* WRDefaultTitleView.swift */,
 				1AA41B08264FC2A200F286C2 /* WRLeadingView.swift */,
 				1AA41B0B264FC2DD00F286C2 /* WRTrailingView.swift */,
 				1AA41B0E264FC38B00F286C2 /* WRTitleView.swift */,
 				1AA41B12264FC48800F286C2 /* WRBackgroundView.swift */,
+				1AA41AFB264FC0CF00F286C2 /* WRDefaultTitleView.swift */,
 			);
 			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		1AA41B18264FEFA200F286C2 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1AA41B1A265017C100F286C2 /* LeadingAndTrailingView.swift */,
+				1AA41B2026501ABB00F286C2 /* ForegroundView.swift */,
+				1AA41B2326501B6C00F286C2 /* BackButtonTapActionView.swift */,
+				1AA41B2626501BAF00F286C2 /* HiddenBottomLineView.swift */,
+				1AA41B2A2650202200F286C2 /* IgnoreTopAreaView.swift */,
+				1AA41B3226502A5300F286C2 /* BackgroundView1.swift */,
+				1AA41B3526502C9900F286C2 /* BackgroundView2.swift */,
+				1AA41B3826502DCB00F286C2 /* BackgroundView3.swift */,
+				1AA41B3B2650350100F286C2 /* TitleView.swift */,
+				1AA41B3E2650363A00F286C2 /* TitleSearchView.swift */,
+				1AA41B4226503C5100F286C2 /* DebugView.swift */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +226,24 @@
 				1AA41AFD264FC0CF00F286C2 /* WRDefaultTitleView.swift in Sources */,
 				1AA41AE6264FBFC200F286C2 /* AppDelegate.swift in Sources */,
 				1AA41AE8264FBFC200F286C2 /* SceneDelegate.swift in Sources */,
+				1AA41B3626502C9900F286C2 /* BackgroundView2.swift in Sources */,
 				1AA41AEA264FBFC200F286C2 /* ContentView.swift in Sources */,
 				1AA41AFE264FC0CF00F286C2 /* WRNavigationBar.swift in Sources */,
+				1AA41B2426501B6C00F286C2 /* BackButtonTapActionView.swift in Sources */,
+				1AA41B2B2650202200F286C2 /* IgnoreTopAreaView.swift in Sources */,
 				1AA41B09264FC2A200F286C2 /* WRLeadingView.swift in Sources */,
 				1AA41B13264FC48800F286C2 /* WRBackgroundView.swift in Sources */,
+				1AA41B2726501BAF00F286C2 /* HiddenBottomLineView.swift in Sources */,
+				1AA41B4326503C5100F286C2 /* DebugView.swift in Sources */,
+				1AA41B1E2650198B00F286C2 /* UINavigationController+Ex.swift in Sources */,
+				1AA41B3926502DCB00F286C2 /* BackgroundView3.swift in Sources */,
 				1AA41B0F264FC38B00F286C2 /* WRTitleView.swift in Sources */,
+				1AA41B3326502A5300F286C2 /* BackgroundView1.swift in Sources */,
+				1AA41B3C2650350100F286C2 /* TitleView.swift in Sources */,
+				1AA41B3F2650363A00F286C2 /* TitleSearchView.swift in Sources */,
 				1AA41B01264FC0D700F286C2 /* WRDefaultBackButton.swift in Sources */,
+				1AA41B1B265017C100F286C2 /* LeadingAndTrailingView.swift in Sources */,
+				1AA41B2126501ABB00F286C2 /* ForegroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

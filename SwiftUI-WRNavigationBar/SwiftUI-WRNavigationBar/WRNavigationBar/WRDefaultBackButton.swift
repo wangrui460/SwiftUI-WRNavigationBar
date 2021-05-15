@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-// 隐藏系统返回按钮，添加统一的返回按钮
-// 想要返回事件生效，必须在 view 中加上 @Environment(\.presentationMode) var presentationMode
+// add @Environment(\.presentationMode) var presentationMode 
 struct WRDefaultBackButton: View {
 
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>

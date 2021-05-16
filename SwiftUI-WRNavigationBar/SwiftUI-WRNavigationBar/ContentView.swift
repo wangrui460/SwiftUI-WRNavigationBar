@@ -87,7 +87,6 @@ struct ContentView: View {
             }
             .title("SwiftUI-WRNavigationBar")
             .hiddenLine(false)
-//            .foreground(.white)
             .background(Color.blue)
             .backButtonHidden(true)
         }

@@ -202,6 +202,7 @@ extension WRNavigationBar {
         return result
     }
 
+    /// debug
     public func debug(_ debug: Bool) -> WRNavigationBar {
         var result = self
         #if DEBUG

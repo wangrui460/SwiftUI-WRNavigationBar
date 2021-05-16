@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SwiftUI-WRNavigationBar"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Custom navigationBar in SwiftUI"
 
   spec.description  = <<-DESC

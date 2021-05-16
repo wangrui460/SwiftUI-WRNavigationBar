@@ -18,7 +18,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/wangrui460/SwiftUI-WRNavigationBar.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = ["Sources/**/*.swift"]
+  spec.source_files  = ["Sources/*.swift"]
+  spec.resource = "Resource/*.png"
 
   spec.requires_arc = true
 

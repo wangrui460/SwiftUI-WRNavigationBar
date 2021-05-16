@@ -5,7 +5,8 @@ Pod::Spec.new do |spec|
   spec.summary      = "Custom navigationBar in SwiftUI"
 
   spec.description  = <<-DESC
-                   DESC
+                   easy navigationBar in SwiftUI
+                        DESC
 
   spec.homepage     = "https://github.com/wangrui460/SwiftUI-WRNavigationBar"
 

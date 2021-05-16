@@ -11,14 +11,18 @@ import SwiftUI
 struct WRDefaultBackButton: View {
 
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    var named: String?
     var isBlack: Bool = true
     var foreground: Color = .black
     var action: WRBlock?
-    init(tapAction: WRBlock? = nil, isBlack: Bool = true, foreground: Color = .black) {
+
+    init(named: String? = nil, tapAction: WRBlock? = nil, isBlack: Bool = true, foreground: Color = .black) {
+        self.named = named
         self.action = tapAction
         self.isBlack = isBlack
         self.foreground = foreground
     }
+
     var body: some View {
         Button(action: {
             if let action = action {
@@ -27,12 +31,24 @@ struct WRDefaultBackButton: View {
                 self.presentationMode.wrappedValue.dismiss()
             }
         }) {
-            Image(isBlack ? "back_arrow" : "back_arrow_white")
+            backImage()
                 .resizable()
                 .frame(width: 13, height: 13)
                 .aspectRatio(contentMode: .fit)
                 .foregroundColor(foreground)
         }
+    }
+
+    private func backImage() -> Image {
+        if named != nil {
+            return Image(named!)
+        } else {
+            return Image(uiImage: isBlack ? wrImg(name: "back_arrow@2x") : wrImg(name: "back_arrow_white@2x"))
+        }
+    }
+
+    private func wrImg(name: String, type: String = "png") -> UIImage {
+        return UIImage(named: name, in: Bundle.wrNavigationBarBundle, compatibleWith: nil) ?? UIImage()
     }
 }
 

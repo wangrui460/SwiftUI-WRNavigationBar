@@ -75,6 +75,14 @@ struct ContentView: View {
                                 label: {
                                     DemoCell(title: "set titleView search")
                                 })
+                        }
+
+                        VStack {
+                            NavigationLink(
+                                destination: SetBackButtonImageViewName(),
+                                label: {
+                                    DemoCell(title: "set backButton image name")
+                                })
 
                             NavigationLink(
                                 destination: DebugView(),

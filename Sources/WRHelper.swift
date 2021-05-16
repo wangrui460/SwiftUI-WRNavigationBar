@@ -7,14 +7,13 @@
 
 import UIKit
 
-typealias WRBlock = () -> Void
+public typealias WRBlock = () -> Void
 
 enum WRHelper {
     static let height: CGFloat = UIScreen.main.bounds.size.height
 
     /// Portrait
     enum UnsafeArea {
-        /// 顶部非安全区域高度(== 状态栏高度)
         static var top: CGFloat {
             UIWindow.keyWindow?.safeAreaInsets.top ?? 0
         }

@@ -5,6 +5,9 @@ custom navigationBar in swiftui
 ## Requirements
 iOS 14.0
 
+## Installation
+pod 'SwiftUI-WRNavigationBar', '~>1.1.0'
+
 
 ## Overview
 |debug|custom title view|custom title view search|
@@ -47,6 +50,7 @@ struct ForegroundView: View {
 | foreground(_ foreground: Color) | foreground |
 | title(_ title: String) | title (titleView is default) |
 | hiddenLine(_ hidden: Bool) | Is the line at the bottom of the navigationBar hidden |
+| backButtonImageName(_ named: String) | Set backButton image name |
 | backButtonHidden(_ hidden: Bool) | Is the backButton hidden |
 | isBackButtonBlack(_ isBlack: Bool) | Is the backButton black style |
 | ignoringTopArea(_ ignore: Bool) | Is the content align with the top of the navigationBar |

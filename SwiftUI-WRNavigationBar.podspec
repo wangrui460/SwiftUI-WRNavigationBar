@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SwiftUI-WRNavigationBar"
-  spec.version      = "1.0.1"
+  spec.version      = "1.1.0"
   spec.summary      = "Custom navigationBar in SwiftUI"
 
   spec.description  = <<-DESC
@@ -18,8 +18,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/wangrui460/SwiftUI-WRNavigationBar.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = ["Sources/*.swift"]
-  spec.resource = "Resource/*.png"
+  spec.source_files  = "Sources/*.swift"
+  spec.resources     = 'Sources/*.{png,bundle}'
 
   spec.requires_arc = true
 

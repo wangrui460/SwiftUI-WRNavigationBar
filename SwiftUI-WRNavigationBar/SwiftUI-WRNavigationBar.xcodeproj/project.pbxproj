@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A91306B265154CC007608DE /* WRNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A91306A265154CC007608DE /* WRNavigationBar.bundle */; };
+		1A91307226515E43007608DE /* Bundle+WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A91307126515E43007608DE /* Bundle+WRNavigationBar.swift */; };
+		1A91307726516348007608DE /* SetBackButtonImageViewName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A91307626516348007608DE /* SetBackButtonImageViewName.swift */; };
 		1AA41AE6264FBFC200F286C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41AE5264FBFC200F286C2 /* AppDelegate.swift */; };
 		1AA41AE8264FBFC200F286C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41AE7264FBFC200F286C2 /* SceneDelegate.swift */; };
 		1AA41AEA264FBFC200F286C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA41AE9264FBFC200F286C2 /* ContentView.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A91306A265154CC007608DE /* WRNavigationBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WRNavigationBar.bundle; sourceTree = "<group>"; };
+		1A91307126515E43007608DE /* Bundle+WRNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+WRNavigationBar.swift"; sourceTree = "<group>"; };
+		1A91307626516348007608DE /* SetBackButtonImageViewName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetBackButtonImageViewName.swift; sourceTree = "<group>"; };
 		1AA41AE2264FBFC200F286C2 /* SwiftUI-WRNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-WRNavigationBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA41AE5264FBFC200F286C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AA41AE7264FBFC200F286C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +127,7 @@
 		1AA41AFA264FBFDE00F286C2 /* WRNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				1A91306A265154CC007608DE /* WRNavigationBar.bundle */,
 				1AA41B05264FC1F700F286C2 /* WRHelper.swift */,
 				1AA41B00264FC0D700F286C2 /* WRDefaultBackButton.swift */,
 				1AA41AFC264FC0CF00F286C2 /* WRNavigationBar.swift */,
@@ -129,6 +136,7 @@
 				1AA41B0E264FC38B00F286C2 /* WRTitleView.swift */,
 				1AA41B12264FC48800F286C2 /* WRBackgroundView.swift */,
 				1AA41AFB264FC0CF00F286C2 /* WRDefaultTitleView.swift */,
+				1A91307126515E43007608DE /* Bundle+WRNavigationBar.swift */,
 			);
 			path = WRNavigationBar;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 				1AA41B3B2650350100F286C2 /* TitleView.swift */,
 				1AA41B3E2650363A00F286C2 /* TitleSearchView.swift */,
 				1AA41B4226503C5100F286C2 /* DebugView.swift */,
+				1A91307626516348007608DE /* SetBackButtonImageViewName.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -208,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A91306B265154CC007608DE /* WRNavigationBar.bundle in Resources */,
 				1AA41AF2264FBFC500F286C2 /* LaunchScreen.storyboard in Resources */,
 				1AA41AEF264FBFC500F286C2 /* Preview Assets.xcassets in Resources */,
 				1AA41AEC264FBFC500F286C2 /* Assets.xcassets in Resources */,
@@ -223,6 +233,7 @@
 			files = (
 				1AA41B06264FC1F700F286C2 /* WRHelper.swift in Sources */,
 				1AA41B0C264FC2DD00F286C2 /* WRTrailingView.swift in Sources */,
+				1A91307226515E43007608DE /* Bundle+WRNavigationBar.swift in Sources */,
 				1AA41AFD264FC0CF00F286C2 /* WRDefaultTitleView.swift in Sources */,
 				1AA41AE6264FBFC200F286C2 /* AppDelegate.swift in Sources */,
 				1AA41AE8264FBFC200F286C2 /* SceneDelegate.swift in Sources */,
@@ -232,6 +243,7 @@
 				1AA41B2426501B6C00F286C2 /* BackButtonTapActionView.swift in Sources */,
 				1AA41B2B2650202200F286C2 /* IgnoreTopAreaView.swift in Sources */,
 				1AA41B09264FC2A200F286C2 /* WRLeadingView.swift in Sources */,
+				1A91307726516348007608DE /* SetBackButtonImageViewName.swift in Sources */,
 				1AA41B13264FC48800F286C2 /* WRBackgroundView.swift in Sources */,
 				1AA41B2726501BAF00F286C2 /* HiddenBottomLineView.swift in Sources */,
 				1AA41B4326503C5100F286C2 /* DebugView.swift in Sources */,

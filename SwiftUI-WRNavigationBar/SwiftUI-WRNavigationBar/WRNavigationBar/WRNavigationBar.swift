@@ -10,13 +10,13 @@ import SwiftUI
 struct WRNavigationBar_Previews: PreviewProvider {
     static var previews: some View {
         WRNavigationBar {
-            Text("测试")
+            Text("test")
         }
     }
 }
 
-/// 自定义导航栏
-struct WRNavigationBar<Content>: View where Content: View {
+/// custom navigationBar
+public struct WRNavigationBar<Content>: View where Content: View {
 
     // The title of navigationBar (titleView default)
     private var title: String = ""
@@ -38,6 +38,9 @@ struct WRNavigationBar<Content>: View where Content: View {
 
     // Has backButton of default on the navigationBar
     private var hasBackButton: Bool = true
+
+    // Set backButton image name
+    private var backButtonImageName: String?
 
     // Set backButton tapAction
     private var backButtonTapAction: WRBlock? = nil
@@ -66,7 +69,7 @@ struct WRNavigationBar<Content>: View where Content: View {
     // Content view between navigationBar
     private let content: Content
 
-    var body: some View {
+    public var body: some View {
         ZStack(alignment: .top) {
             ZStack {
                 Color.clear
@@ -80,7 +83,7 @@ struct WRNavigationBar<Content>: View where Content: View {
                     // leading
                     HStack(spacing: 0) {
                         if hasBackButton {
-                            WRDefaultBackButton(tapAction: backButtonTapAction, isBlack: isBackButtonBlack, foreground: foreground)
+                            WRDefaultBackButton(named: backButtonImageName, tapAction: backButtonTapAction, isBlack: isBackButtonBlack, foreground: foreground)
                         }
                         leadingView
                         Spacer()
@@ -153,6 +156,14 @@ extension WRNavigationBar {
     public func hiddenLine(_ hidden: Bool) -> WRNavigationBar {
         var result = self
         result.hiddenLine = hidden
+        return result
+    }
+
+    /// Set backButton image name
+    public func backButtonImageName(_ named: String)
+    -> WRNavigationBar {
+        var result = self
+        result.backButtonImageName = named
         return result
     }
 

@@ -6,7 +6,7 @@ custom navigationBar in swiftui
 iOS 14.0
 
 ## Installation
-pod 'SwiftUI-WRNavigationBar', '~>1.1.0'
+pod 'SwiftUI-WRNavigationBar', '~>1.1.1'
 
 
 ## Overview

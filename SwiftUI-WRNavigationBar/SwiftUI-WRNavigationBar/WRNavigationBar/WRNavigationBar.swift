@@ -223,7 +223,7 @@ extension WRNavigationBar {
     }
 
     /// titleView
-    public func navigationBarTitleView<Content: View>(@ViewBuilder titleView: () -> Content) -> some View {
+    public func navigationBarTitleView<Content: View>(@ViewBuilder titleView: () -> Content) -> WRNavigationBar {
         let titleV = titleView()
         var result = self
         result.isDefaultTitleView = false

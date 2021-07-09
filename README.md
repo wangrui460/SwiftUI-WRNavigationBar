@@ -1,3 +1,8 @@
+# SwiftUI 技术交流
+我创建了一个 SwiftUI 技术交流群，欢迎小伙伴们加入一起交流学习~
+
+可以加我微信我拉你进去（备注swiftui），我的微信号 wr1204607318
+
 # SwiftUI-WRNavigationBar
 custom navigationBar in swiftui
 
